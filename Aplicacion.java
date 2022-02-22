@@ -7,7 +7,7 @@ public class Aplicacion{
         cuenta1.setSaldoCuenta( 5000.25 );
         cuenta1.setSaldoAhorro( 300.25 );
 
-        
+
         CuentaBancaria cuenta2 = new CuentaBancaria();
         cuenta2.setCuenta( "00002" );
         cuenta2.setSaldoCuenta( 3000.45 );
@@ -41,6 +41,7 @@ public class Aplicacion{
         System.out.println( CuentaBancaria.cantidadTotal() );
         System.out.println("\n----- Cantidad de usuario que tiene el banco  -----");
         System.out.println( CuentaBancaria.contadorDeCuentas() );
+        System.out.println("\n---------------------------------------------------");
         cuenta1.depositarSaldoAhorro(500);
         System.out.println( cuenta1.toString());
         cuenta2.retirarSaldoAhorro(600);
