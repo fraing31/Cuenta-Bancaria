@@ -39,7 +39,7 @@ public class Aplicacion{
         System.out.println( cuenta5.toString() );
         System.out.println("\n----- Cantidad total de Dinero que posee el banco -----");
         System.out.println( CuentaBancaria.cantidadTotal() );
-        System.out.println("\n----- Cantidad de usuario que tiene el banco  -----");
+        System.out.println("\n----- Cantidad de usuarios que tiene el banco  -----");
         System.out.println( CuentaBancaria.contadorDeCuentas() );
         System.out.println("\n---------------------------------------------------");
         cuenta1.depositarSaldoAhorro(500);
