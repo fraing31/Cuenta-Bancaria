@@ -80,14 +80,13 @@ public class CuentaBancaria{
         }
     }
 
-
     public String toString(){
         return "Cuenta: " + getCuenta() + "\n" +
                "Saldo: " + getSaldoCuenta() + "\n"+
                "Ahorro:" + getSaldoAhorro() + "\n";
     }
 
-    
+
 
    
    
